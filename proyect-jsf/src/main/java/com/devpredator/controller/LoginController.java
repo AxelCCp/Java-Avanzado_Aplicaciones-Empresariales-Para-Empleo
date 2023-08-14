@@ -1,4 +1,4 @@
-package com.devpredator.projectjsf;
+package com.devpredator.controller;
 
 import java.io.IOException;
 
