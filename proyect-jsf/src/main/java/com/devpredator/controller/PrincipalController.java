@@ -37,7 +37,18 @@ public class PrincipalController {
 	public void setEmpleados(List<Empleado> empleados) {
 		this.empleados = empleados;
 	}
+	
+
+	public List<Empleado> getEmpleadosFiltrados() {
+		return empleadosFiltrados;
+	}
+
+	public void setEmpleadosFiltrados(List<Empleado> empleadosFiltrados) {
+		this.empleadosFiltrados = empleadosFiltrados;
+	}
+
 
 	private List<Empleado>empleados;
 	private EmpleadoService empleadoService = new  EmpleadoService();
+	private List<Empleado>empleadosFiltrados;
 }

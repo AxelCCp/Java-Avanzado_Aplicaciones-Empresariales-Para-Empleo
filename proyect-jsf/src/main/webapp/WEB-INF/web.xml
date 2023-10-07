@@ -5,9 +5,14 @@
          version="3.1">
   <display-name>Archetype Created Web Application</display-name>
   
-  <context-param>
+  	<context-param>
 		<param-name>javax.faces.PROJECT_STAGE</param-name>
 		<param-value>Development</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>primefaces.THEME</param-name>
+		<param-value>nova-colored</param-value>
 	</context-param>
 
 	<!-- Welcome page -->
@@ -27,5 +32,5 @@
 		<servlet-name>Faces Servlet</servlet-name>
 		<url-pattern>*.xhtml</url-pattern>
 	</servlet-mapping>
-  
+	
 </web-app>
