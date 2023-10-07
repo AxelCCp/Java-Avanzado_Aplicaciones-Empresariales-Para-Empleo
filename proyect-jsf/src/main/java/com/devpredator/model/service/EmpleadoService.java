@@ -20,6 +20,14 @@ public class EmpleadoService {
 		Empleado empleadoMicrosoft = new Empleado();
 		Empleado empleadoApple = new Empleado();
 		
+		Empleado empleadoNetflix = new Empleado();
+		Empleado empleadoAmazon = new Empleado();
+		Empleado empleadoHp = new Empleado();
+		
+		Empleado empleadoOracle = new Empleado();
+		Empleado empleadoDeloitte = new Empleado();
+		Empleado empleadoDisney = new Empleado();
+		
 		empleadoIBM.setNombre("Rey");
 		empleadoIBM.setPrimerApellido("Pilaf");
 		empleadoIBM.setSegundoApellido("....");
@@ -38,10 +46,54 @@ public class EmpleadoService {
 		empleadoApple.setPuesto("Rey");
 		empleadoApple.setEstatus(false);
 		
+		empleadoNetflix.setNombre("Bra");
+		empleadoNetflix.setPrimerApellido("nnnn");
+		empleadoNetflix.setSegundoApellido("...");
+		empleadoNetflix.setPuesto("xxx");
+		empleadoNetflix.setEstatus(true);
+		
+		empleadoAmazon.setNombre("Amazon");
+		empleadoAmazon.setPrimerApellido("zzzz");
+		empleadoAmazon.setSegundoApellido("...");
+		empleadoAmazon.setPuesto("dev");
+		empleadoAmazon.setEstatus(false);
+		
+		empleadoHp.setNombre("Boo");
+		empleadoHp.setPrimerApellido("majin");
+		empleadoHp.setSegundoApellido("...");
+		empleadoHp.setPuesto("gggggg");
+		empleadoHp.setEstatus(true);
+		
+		empleadoOracle.setNombre("Up");
+		empleadoOracle.setPrimerApellido("sdfsfd");
+		empleadoOracle.setSegundoApellido("iiiii");
+		empleadoOracle.setPuesto("eeeeee");
+		empleadoOracle.setEstatus(false);
+		
+		empleadoDeloitte.setNombre("18");
+		empleadoDeloitte.setPrimerApellido("RR");
+		empleadoDeloitte.setSegundoApellido(".RR.");
+		empleadoDeloitte.setPuesto("androide RR");
+		empleadoDeloitte.setEstatus(true);
+		
+		empleadoDisney.setNombre("17");
+		empleadoDisney.setPrimerApellido("RR");
+		empleadoDisney.setSegundoApellido("RR..");
+		empleadoDisney.setPuesto("androide RR");
+		empleadoDisney.setEstatus(true);
+		
 		List<Empleado> listaEmp = new ArrayList<>();
 		listaEmp.add(empleadoIBM);
 		listaEmp.add(empleadoMicrosoft);
 		listaEmp.add(empleadoApple);
+		
+		listaEmp.add(empleadoNetflix);
+		listaEmp.add(empleadoAmazon);
+		listaEmp.add(empleadoHp);
+		
+		listaEmp.add(empleadoOracle);
+		listaEmp.add(empleadoDeloitte);
+		listaEmp.add(empleadoDisney);
 		
 		return listaEmp;
 	}
